@@ -1,0 +1,35 @@
+.PriceController {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem 0 1rem 0;
+}
+
+.PriceController__box {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--light-grey);
+  position: relative;
+  height: 40px;
+}
+
+.PriceController__box span {
+  height: 100%;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.PriceController__input {
+  border: none;
+  text-align: center;
+  font-size: 1.2rem;
+  width: 35px;
+}
+
+.PriceController__input:focus {
+  outline: none;
+}

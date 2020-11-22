@@ -1,0 +1,41 @@
+.CartItem {
+  background-color: #fff;
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+.CartItem__info {
+  width: 65%;
+  padding: 0rem 2rem 0 1.4rem;
+}
+
+.CartItem__img-container {
+  width: 35%;
+  position: relative;
+  background-color: #fdfdfd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.CardItem__title {
+  font-size: 1rem;
+  font-family: var(--secondary-font);
+}
+
+.CartItem__close__btn {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  cursor: pointer;
+  width: 1.6rem;
+}
+
+.CartItem__thumbnail {
+  max-width: 50%;
+}
+
+.CartItem-Container {
+  max-height: 60vh;
+  overflow: auto;
+}

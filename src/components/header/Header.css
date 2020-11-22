@@ -1,0 +1,8 @@
+.Header {
+  padding: 4rem 0;
+}
+
+.Header__display-text {
+  font-size: 3rem;
+  font-weight: 400;
+}
